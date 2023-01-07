@@ -4,7 +4,7 @@ Core code will be uploaded later.
 
 ## Training
 
-1. Prepare DTU training set(640x512) and BlendedMVS dataset(768x576).
+1. Prepare DTU train set(640x512) and BlendedMVS dataset(768x576).
 1. Edit config.py and set "DatasetsArgs.root_dir", "LoadDTU.train_root&train_pair", and "LoadBlendedMVS.train_root".
 2. Run the script for training.
 
