@@ -32,9 +32,9 @@ python train.py -d blendedmvs
 
 The Pre-training model in "pth". 
 
-1. Prepare DTU test set(1600x1200)([百度网盘](https://pan.baidu.com/s/15hZZ3eY2bSZnae5M079gIQ 
-) 提取码：6au3) and Tanks and Temples dataset([百度网盘](https://pan.baidu.com/s/1pAcLFXwi_FGxQUM47JjIMw 
-   ) 提取码：a4oz).
+1. Prepare DTU test set(1600x1200)([Baidu Netdisk](https://pan.baidu.com/s/15hZZ3eY2bSZnae5M079gIQ 
+) code：6au3) and Tanks and Temples dataset([Baidu Netdisk](https://pan.baidu.com/s/1pAcLFXwi_FGxQUM47JjIMw 
+   ) code：a4oz).
 2. Edit config.py and set "DatasetsArgs.root_dir", "LoadDTU.eval_root&eval_pair", and "LoadTanks.eval_root"
 3. Run the script for the test.
 
