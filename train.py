@@ -34,6 +34,7 @@ def train(args, train_args, train_databatch, loss_criterion):
         optimizer.param_groups[0]['lr'] = train_args.lr * ((1 - (epoch-1)/ train_args.max_epoch)**train_args.factor)
         epoch_loss = 0.0
         for batch, data_batch in enumerate(train_databatch):
+
             data_batch = tocuda(data_batch, train_args.DEVICE, train_args.parallel)
             start_time = time.time()
 
