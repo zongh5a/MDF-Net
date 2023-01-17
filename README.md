@@ -92,8 +92,7 @@ python fusion.py -e EVAL_OUTPUT_LOCATION -r DATASET_PATH -o OUTPUT_PATH
 |     MDFNet([3scale](https://github.com/ZonghuaYu/MDF-Net_3Scales))    |    60.24    |    37.31  |  
 
 example
-
-![Family](imgs/Family.gif)
+![Family](imgs/Family.gif "Family")
 
 ## Acknowledgements
 
