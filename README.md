@@ -1,5 +1,5 @@
 ## _Multi-distribution fitting for multi-view stereo_
-![network_4scales.jpg](imgs/network_4scales.jpg)
+![network_4scales](imgs/network_4scales.jpg "network_4scales.jpg")
 
 #### Main contributions: 
 1. Fitting Gaussian and Laplace distributions for multiscale depth refinement.
@@ -91,7 +91,7 @@ python fusion.py -e EVAL_OUTPUT_LOCATION -r DATASET_PATH -o OUTPUT_PATH
 |     MDFNet([3scale](https://github.com/ZonghuaYu/MDF-Net_3Scales))    |    60.24    |    37.31  |  
 
 example
-![Family.gif](imgs/Family.gif)
+![Family](imgs/Family.gif "Family.gif")
 
 ## Acknowledgements
 
