@@ -1,6 +1,5 @@
 ## _Multi-distribution fitting for multi-view stereo_
 
-In addition, if reduce some performance and run the network directly in H/4xW/4, H/2xW/2, and HxW instead of using an image super-resolution network to improve resolution, will get better results ([3Scale](https://github.com/ZonghuaYu/MDF-Net_3Scales)).
 
 ## Training
 
