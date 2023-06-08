@@ -1,5 +1,6 @@
 ## _Multi-distribution fitting for multi-view stereo_
 
+![network_4scales](imgs/network_4scales.jpg "network_4scales")
 
 ## Training
 
