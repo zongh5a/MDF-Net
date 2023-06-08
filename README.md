@@ -1,20 +1,6 @@
 ## _Multi-distribution fitting for multi-view stereo_
 
-![network_4scales](imgs/network_4scales.jpg)
-
-#### Main contributions: 
-1. Fitting Gaussian and Laplace distributions for multiscale depth refinement.
-
-
-2. View cost aggregation (VCR) build cost volume.
-
-
-3. To improve the performance, we build a lightweight
-image super-resolution network to upsample the depth map.
-
 In addition, if reduce some performance and run the network directly in H/4xW/4, H/2xW/2, and HxW instead of using an image super-resolution network to improve resolution, will get better results ([3Scale](https://github.com/ZonghuaYu/MDF-Net_3Scales)).
-
-
 
 ## Training
 
